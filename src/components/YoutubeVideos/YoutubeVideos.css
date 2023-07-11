@@ -1,0 +1,31 @@
+.youtube-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    padding-left: 0px;
+}
+.carousel .slide {
+    max-width: 200px;
+  }
+.carousel .carousel-status {
+    display: none;
+}
+.carousel.carousel-slider .control-arrow {
+    background: rgba(0,0,0,0.2);
+    opacity: initial;
+}
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid black;
+}
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid black;
+}
+.carousel.carousel-slider .control-arrow,
+.carousel.carousel-slider .control-arrow:hover {
+    background: none;
+}
+.carousel .control-dots .dot {
+    background: black;
+}
