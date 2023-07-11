@@ -30,7 +30,7 @@ const ContactPage = () => {
                             &times;
                         </Link>
                         <h2>Contact</h2>
-                        <p>Pineapple salsa golden cayenne pepper coconut chocolate spiced pumpkin chili ghost pepper citrusy sesame soba noodles extra crispy green onions almond milk. Chili scotch bonnet pepper balsamic vinaigrette tart bananas Caribbean red habanero cherries blueberries salted walnut pesto flakes.</p>
+                        <p>Pineapple salsa golden cayenne pepper coconut Chili scotch bonne salted walnut pesto flakes.</p>
                         <Contact data={data} closePopup={closePopup} />
                     </div>
                 </div>
