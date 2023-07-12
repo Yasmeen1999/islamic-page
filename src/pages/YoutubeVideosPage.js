@@ -25,6 +25,7 @@ const YoutubeVideosPage = () => {
         })
         .catch(error => console.log('Error fetching videos:', error))
     }
+ 
     return (
         <div>
             <h2 className='text-center mt-5 mb-4'>Latest uploads</h2>

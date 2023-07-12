@@ -30,7 +30,7 @@ const ContactPage = () => {
                             &times;
                         </Link>
                         <h2>Contact</h2>
-                        <p>Pineapple salsa golden cayenne pepper coconut Chili scotch bonne salted walnut pesto flakes.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <Contact data={data} closePopup={closePopup} />
                     </div>
                 </div>
