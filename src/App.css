@@ -50,7 +50,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: black;
+  background: rgb(25, 25, 25);
   border-radius: 10px 10px 0 0;
 }
 .social-network h3 {
