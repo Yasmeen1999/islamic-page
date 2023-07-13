@@ -1,13 +1,58 @@
 .subscribe-channel {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 50px 30px;
 }
 .subscribe-channel a {
-  padding: 10px 15px;
+  padding: 10px 50px;
   text-decoration: none;
-  border-radius: 5px;
+  color: black;
+  border: 3px solid rgb(55, 55, 55);
+  border-radius: 7px;
+  transition: all 0.2s ease-in 0s;
+  background: linear-gradient(to left, white 50%, rgb(1, 24, 40) 50%) right center / 200%;
+}
+.subscribe-channel a:hover {
+  color: white;
+  background-position: left center;
 }
 .info:nth-child(1)  h4{
   margin-bottom: 0px;
   font-weight: 700;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.social-icons a:hover {
+  color: #fff;
+}
+.icon-link {
+  margin: 0 5px;
+  color: #fff;
+  font-size: 24px;
+  padding: 4px 13px;
+  border-radius: 5px;
+}
+.instagram-icon {
+  background-color: #dd2b4a;
+}
+.facebook-icon {
+  background-color: #3b5998;
+}
+.youtube-icon {
+  background-color: #cd201f;
+}
+.twitter-icon {
+  background-color: #1da1f2;
+}
+.social-network {
+  background: black;
+}
+.social-network h3 {
+  text-align: center;
+  font-weight: 700;
+  padding: 15px 0px 10px;
+  color: #fff;
+  font-size: 18px;
 }

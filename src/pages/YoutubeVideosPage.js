@@ -29,9 +29,9 @@ const YoutubeVideosPage = () => {
     return (
         <div>
             <h2 className='text-center mt-5 mb-4'>Latest uploads</h2>
-            <ul className='youtube-videos'>
+            <div className='youtube-videos'>
                 <YoutubeVideos videos={videos} />
-            </ul>
+            </div>
         </div>
     )
 }

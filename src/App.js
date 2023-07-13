@@ -25,7 +25,24 @@ function App() {
         </Routes>
         <YoutubeVideosPage />
         <div className='subscribe-channel'>
-          <a href="https://www.youtube.com/@MohammedMudassirSulaimani" className='bg-primary text-white' target="blank">Never miss to subscribe</a>
+          <a href="https://www.youtube.com/@MohammedMudassirSulaimani" target="blank">Never miss to subscribe</a>
+        </div>
+        <div className='social-network'>
+          <h3>Official Social Network</h3>
+          <div className="social-icons">
+            <a href="https://www.facebook.com/muftimenk" target="blank" className="icon-link facebook-icon">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/muftimenk" target="blank" className="icon-link twitter-icon">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCNB_OaI4524fASt8h0IL8dw?sub_confirmation=1" target="blank" className="icon-link youtube-icon">
+              <i className="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/muftimenkofficial/" target="blank" className="icon-link instagram-icon">
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
         </div>
       </BrowserRouter>
     </div>

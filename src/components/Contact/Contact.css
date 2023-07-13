@@ -38,8 +38,15 @@
     outline: none;
 }
 .send-message {
-    background: black;
+    color: black;
+    border: 3px solid rgb(55, 55, 55);
+    border-radius: 7px;
+    transition: all 0.2s ease-in 0s;
+    background: linear-gradient(to left, white 50%, rgb(1, 24, 40) 50%) right center / 200%;
+}
+.send-message:hover {
     color: white;
+    background-position: left center;
 }
 @media only screen and (max-width: 600px) {
     .modal-content {

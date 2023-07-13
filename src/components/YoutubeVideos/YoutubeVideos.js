@@ -1,20 +1,15 @@
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './YoutubeVideos.css'
 
 function YouTubeVideos({ videos }) {
-    const videoList = videos.map((video, i) => {
+    const videoList = videos.map((video) => {
         return (
-            <div key={video.id}>
-                <h3>{video.title}</h3>
-                <p>{video.description}</p>
+            <div key={video.id.videoId}>
                 <iframe
-                    width="560"
-                    height="315"
+                    height="200"
                     src={`https://www.youtube.com/embed/${video.id.videoId}`}
                     title={video.title}
-                    frameBorder="0"
                     allowFullScreen
+                    
                 ></iframe>
             </div>
         )
@@ -22,11 +17,9 @@ function YouTubeVideos({ videos }) {
 })
 
   return (
-    <div>
-        <Carousel>
-            {videoList}
-        </Carousel>
-    </div>
+    <>
+        {videoList}
+    </>
   );
 }
 
