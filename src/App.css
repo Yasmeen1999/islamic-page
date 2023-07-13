@@ -47,7 +47,11 @@
   background-color: #1da1f2;
 }
 .social-network {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background: black;
+  border-radius: 10px 10px 0 0;
 }
 .social-network h3 {
   text-align: center;
@@ -55,4 +59,9 @@
   padding: 15px 0px 10px;
   color: #fff;
   font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    .subscribe-channel {
+       height: 50vh;
+    }
 }
