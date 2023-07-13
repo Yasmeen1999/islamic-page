@@ -11,20 +11,25 @@ const YoutubeVideosPage = () => {
 
     useEffect(() => {
         fetchVideos();
-    }, [])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
 
     const fetchVideos = () => {
         axios.get(youtubeURL)
         .then(response => {
-            const data = response.data.items.map((item, i) => {
-                if(item.id.videoId) {
-                    return item;
-                }
-            }).filter(Undefined => Undefined !== undefined)
-            setVideos(data)
+            const data = response.data.items
+                .map((item, i) => {
+                    if (item.id.videoId) {
+                        return item;
+                    }
+                    return null; // Return a placeholder value for items without videoId
+                })
+                .filter(item => item !== null); // Filter out the null values
+            setVideos(data);
         })
-        .catch(error => console.log('Error fetching videos:', error))
+        .catch(error => console.log('Error fetching videos:', error));
     }
+    
  
     return (
         <div>
