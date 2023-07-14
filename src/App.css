@@ -1,6 +1,6 @@
 .subscribe-channel {
   text-align: center;
-  margin: 50px 30px;
+  margin: 50px 30px 170px;
 }
 .subscribe-channel a {
   padding: 10px 50px;
@@ -59,9 +59,4 @@
   padding: 15px 0px 10px;
   color: #fff;
   font-size: 18px;
-}
-@media only screen and (max-width: 600px) {
-    .subscribe-channel {
-       height: 50vh;
-    }
 }

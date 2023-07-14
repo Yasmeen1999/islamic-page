@@ -5,7 +5,7 @@ import YoutubeVideos from '../components/YoutubeVideos/YoutubeVideos';
 const YoutubeVideosPage = () => {
     const [videos, setVideos] = useState([]);
 
-    const API = 'AIzaSyAjLkcof_Sc7l2MLB8RZetmC0oYn0BjLCM'
+    const API = 'AIzaSyD8PjGgNGgn8lcADZJWDnNS4RTOxVxVK4Y'
     const channelID = 'UCKEjOKvmj1C43yJqjZjbzOQ';
     const youtubeURL = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelID}&key=${API}`
 
